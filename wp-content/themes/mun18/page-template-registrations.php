@@ -305,9 +305,9 @@ if ($flag==1){ ?>
           
 								if ($query->have_posts()):
 									while ($query->have_posts()): $query->the_post(); 
-									if(get_the_title()!="Joint Cabinet Crisis 1 (KGB)" && get_the_title()!="The Office of the United Nations High Commissioner for Human Rights (OHCHR)"){?>
+									if(get_the_title()!="J(KGB)" && get_the_title()!="The Office of the United ommissioner for Human Rights (OHCHR)"){ ?>
 
-									<option><?php echo get_the_title(); ?></option>
+									<option> <?php echo get_the_title(); ?> </option>
 
 			                         <?php } endwhile;
 								endif;
@@ -365,7 +365,7 @@ if ($flag==1){ ?>
 
 								if ($query->have_posts()):
 									while ($query->have_posts()): $query->the_post(); 
-									if(get_the_title()!="Joint Cabinet Crisis 1 (KGB)"  && get_the_title()!="The Office of the United Nations High Commissioner for Human Rights (OHCHR)"){?>
+									if(get_the_title()!="Joint Cabin Crisis 1 (KGB)"  && get_the_title()!="The Office he United Nations High Commissioner for Human Rights (OHCHR)"){?>
 									
 
 									<option><?php echo get_the_title(); ?></option>
@@ -426,7 +426,7 @@ if ($flag==1){ ?>
 
 								if ($query->have_posts()):
 									while ($query->have_posts()): $query->the_post(); 
-									if(get_the_title()!="Joint Cabinet Crisis 1 (KGB)" && get_the_title()!="The Office of the United Nations High Commissioner for Human Rights (OHCHR)"){?>
+									if(get_the_title()!="Joint Cabinet Crisis 1B)" && get_the_title()!="The Office of t United Nations High Commissioner for Human Rights (OHCHR)"){?>
 									
 
 									<option><?php echo get_the_title(); ?></option>
